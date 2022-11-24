@@ -1,0 +1,54 @@
+<!--
+ * @Author: yjh yjh18251979850@outlook.com
+ * @Date: 2022-09-20 23:36:21
+ * @LastEditors: yjh yjh18251979850@outlook.com
+ * @LastEditTime: 2022-11-24 21:40:52
+ * @FilePath: \python\demo01.html
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>demo01</title>
+</head>
+<body>
+    <table id="test" border="4">
+        <tr class="tr">
+            <td colspan="4">学生列表</td>
+        </tr>
+        <tr class="tr">
+            <td rowspan="3">1班</td>
+            <td>1</td>
+            <td>小红</td>
+            <td>7岁</td>
+        </tr>
+        <tr class="tr">
+            <td>2</td>
+            <td>小黄</td>
+            <td>8</td>
+        </tr>
+        <tr class="tr">
+            <td>3</td>
+            <td>小张</td>
+            <td>9</td>
+        </tr>
+    </table>
+    <script>
+        let t4r = document.getElementById("test");
+        console.log(t4r);
+        // t4r.innerHTML = "niha";
+        let tr4 = document.querySelector("#test");
+        console.log(tr4);
+        let tr = document.querySelectorAll(".tr");
+        console.log(tr);    
+       
+    for (let i = 0; i < tr.length; i++) {
+       let co = tr[i];
+       console.log(co);
+    }
+    </script>
+</body>
+</html>

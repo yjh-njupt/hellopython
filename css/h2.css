@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.clear::before,.clear::after{
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.list .pic img{
+    height: 600px;
+    width: 400px;
+}
+
+.pic{
+    width: 400px;
+    float: left;
+}
+
+.title{
+    width: 300px;
+    float: left;
+
+}
+
+.title a{
+    display: block;
+    background-color:pink;
+    height: 30px;
+    width: 80px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 30px;
+}

@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.clear::before,.clear::after{
+    clear: both;
+    display: block;
+    content: "";
+}
+
+body{
+    height: 10000px;
+}
+
+img{
+    height: 800px;
+    width: 500px;
+}
+
+.title{
+    border: 1px solid rebeccapurple;
+    height: 30px;
+    width: 800px;
+}
+
+.title h2{
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.title h2 a{
+    color: #aaa;
+    float: right;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.list .img{
+    float: left;
+}
+
+.list .discribe{
+    float: left;
+}
+
+.list .img img{
+    height: 800px;
+    width: 500px;
+}
+
+
+.box{
+    border: 1px solid #fff;
+    background-color: red;
+    width: 300px;
+    height: 300px;
+}
+
+.pos{
+
+    left: 80px;
+    top: 50px;
+    /* position: fixed; */
+    z-index: 9;
+}
+
+.pos-ab{
+    left: 50px;
+    top: 50px;
+    /* position: fixed; */
+    z-index: -9;
+}
+
+.pic-box{
+    width: 500px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.list-ab{
+    position: absolute;
+    left: 100px;
+    top: 50px;
+ }
+
+ .botton{
+    position:fixed;
+    bottom: 100px;
+    right: 100px;
+ }
